@@ -1,0 +1,77 @@
+body {
+	background: rgb(240, 240, 240);
+	color: rgb(20, 20, 20);
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: Courier;
+	font-size: 50px;
+	color: red;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Custom design */
+#banner {
+	background-image: url(https://picsum.photos/1000/600/?random);
+	padding: 150px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-size: cover;
+}
+
+#banner h1 {
+	color: rgb(255, 255, 255); 
+}
+
+#banner p {
+	font-size: 18px;
+	font-weight: lighter;
+	opacity: 0.3;
+}
+
+.card {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+	color: white;
+	padding: 50px;
+	margin: 15px;
+	background-color: black;
+	text-align: center;
+
+}
+
+#footer a {
+	color: grey;
+}
+
+#footer a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
